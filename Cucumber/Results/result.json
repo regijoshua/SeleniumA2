@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login Function",
+        "description": "",
+        "id": "demowebshop-application;login-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user should navigate to demowebshop application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user should click on login link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user should enter the username as muhilbharathi1997@gmail.com",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should enter the password as MuhilM",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "login should happen",
+            "match": {
+              "location": "setups.loginShouldHappen()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebshop Application",
+    "description": "",
+    "id": "demowebshop-application",
+    "keyword": "Feature",
+    "uri": "D:\\Java Eclipse\\Cucumber\\src\\test\\java\\Feature\\Login.feature",
+    "tags": []
+  }
+]
